@@ -1,0 +1,15 @@
+# Analysis options for Exotica App
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Performance hints - disabled to reduce noise during development
+    prefer_const_constructors: false
+    prefer_const_literals_to_create_immutables: false
+    prefer_const_declarations: false
+
+analyzer:
+  errors:
+    # Treat deprecation warnings as info only (not warnings)
+    deprecated_member_use: info
+    unused_import: warning
